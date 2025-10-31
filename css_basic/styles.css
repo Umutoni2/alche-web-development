@@ -1,53 +1,22 @@
 /* Make the body a flex container in column direction */
 body {
-  display: flex;            /* body is now a flex container */
-  flex-direction: column;   /* header, main, footer stacked vertically */
-  min-height: 100vh;        /* ensure body takes full height */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
-/* Make header and footer full width */
+/* Header and footer full width */
 header, footer {
   width: 100%;
-}
-
-/* Make main a flex container in row direction */
-main {
-  display: flex;           /* main is now a flex container */
-  flex-direction: row;     /* article and aside go side by side */
-  flex: auto;              /* main fills remaining space automatically */
-  width: 100%;
-}
-
-/* Article takes 2/3 of main width */
-article {
-  flex: 2;                 /* 2 boxes out of 3 */
-  padding: 20px;
-  overflow-y: auto;        /* scroll if content is too tall */
-  background-color: #fff;
-  margin-right: 10px;      /* small gap between article and aside */
-  border-radius: 8px;
-}
-
-/* Aside takes 1/3 of main width */
-aside {
-  flex: 1;                 /* 1 box out of 3 */
-  padding: 20px;
-  overflow-y: auto;        /* scroll if content is too tall */
-  background-color: #f0f0f0;
-  border-radius: 8px;
-}
-
-/* Optional: style header and footer */
-header, footer {
   background-color: #2e8b57;
   color: white;
   text-align: center;
   padding: 15px 0;
 }
 
-/* Optional: style links inside header */
+/* Navigation menu */
 header ul {
   list-style: none;
   display: flex;
@@ -64,4 +33,51 @@ header a {
 
 header a:hover {
   text-decoration: underline;
+}
+
+/* Main flex layout */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  width: 100%;
+  gap: 10px; /* space between article and aside */
+  padding: 10px;
+}
+
+/* Article takes 2/3 of main width */
+article {
+  flex: 2;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+/* Aside takes 1/3 of main width */
+aside {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+/* Optional styling for images in article */
+article img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Optional responsive tweaks */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  article, aside {
+    flex: auto;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }

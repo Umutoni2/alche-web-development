@@ -1,0 +1,15 @@
+/* styles.css */
+/* Your future custom CSS will go here */
+
+article img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+aside {
+  margin-top: 30px;
+  font-style: italic;
+  text-align: center;
+  color: #555;
+}

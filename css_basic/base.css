@@ -1,0 +1,63 @@
+/* base.css */
+
+/* General page styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header and footer */
+header, footer {
+  background-color: #2e8b57; /* green */
+  color: white;
+  padding: 15px 20px;
+}
+
+/* Navigation menu */
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  background-color: white;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+  color: darkblue;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+/* Footer link */
+footer a {
+  color: #ffd700;
+}

@@ -1,6 +1,4 @@
----
 
-```markdown
 # HTML Advanced
 
 ---
@@ -118,7 +116,3 @@ alche-web-development/
 ```
 
 ---
-
-If you want, I can **also make a version that highlights each section with small inline example HTML snippets** to make it easier to start coding `index.html` immediately.
-
-Do you want me to do that?

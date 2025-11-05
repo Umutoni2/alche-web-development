@@ -1,3 +1,4 @@
+
 # HTML Advanced
 
 ---
@@ -13,10 +14,9 @@ The goal is to organize content logically and make the page accessible and clean
 ## Folder Structure
 
 alche-web-development/
-└── html_advanced/
-├── README.md
-└── index.html
-
+ └── html_advanced/
+ ├── README.md
+ └── index.html
 
 ---
 
@@ -110,3 +110,7 @@ alche-web-development/
 **Sylvie UMUTONI RUTAGANIRA**
 
 ---
+
+
+
+

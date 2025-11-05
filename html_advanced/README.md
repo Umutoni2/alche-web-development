@@ -3,90 +3,85 @@
 ---
 
 ## Project Overview
-This project focuses on building a **complete web page** using **semantic HTML elements** only — without any CSS or JavaScript yet.  
-It follows a Figma design to help structure the content logically and set the foundation for later styling with CSS.
+This project focuses on building a **complete webpage** using **semantic HTML elements only**.  
+It follows a Figma design and serves as the foundation for future CSS styling and responsive design.
 
-The goal is to understand how to organize HTML files clearly and make every section meaningful and accessible.
+The goal is to organize content logically and make the page accessible and clean.
 
 ---
 
 ## Folder Structure
 
 alche-web-development/
- └── html_advanced/
- ├── README.md
- └── index.html
+└── html_advanced/
+├── README.md
+└── index.html
+
 
 ---
 
-## Project Steps
+## Steps
 
-### 0. README and Objective
-- Create a `README.md` describing the purpose and structure of the project.
+### 0. README and Objectives
+- Create a `README.md` file describing the project, structure, and objectives.
 
 ---
 
 ### 1. Header
-- Inside `<body>`, create a `<header>` containing:
-  - A clickable logo (`<a><img></a>`)
-  - A `<div>` with **3 navigation links**
+- Add a `<header>` inside `<body>` containing:
+  - Clickable logo (`<a><img></a>`)
+  - Navigation links (3 `<a>` inside a `<div>`)
 
 ---
 
 ### 2. Banner
 - Add `<main>` under the header.
-- Inside `<main>`, create a `<section>` for the banner.
-- The section should include:
-  - A main heading (`<h1>`)
-  - A paragraph (`<p>`)
-  - A call-to-action button (`<button>`)
-  - Another block with four features:
-    - `<img>`, `<h3>`, `<p>` per feature
+- Create a `<section>` for the banner.
+- Include headings, text, and a block for features (4 blocks, each with `img`, `h3`, `p`).
 
 ---
 
 ### 3. Quote Section
 - Add a `<section>` with:
-  - An image (`<img>`)
-  - A quote block (`<blockquote>`)
-  - Author and subtext paragraphs
+  - Image
+  - Quote block (`<blockquote>`)
+  - Author `<p>` and subtext `<p>`
 
 ---
 
-### 4. Video Section
-- Create a section with:
-  - A `<h1>` heading
-  - Four video blocks inside a container
-  - Each block has:
-    - Thumbnail (`<img>`)
-    - Title (`<h2>`)
-    - Description (`<p>`)
-    - Author info and rating section (using images of stars)
+### 4. Videos Section
+- Add a `<section>` for videos:
+  - Heading `<h1>`
+  - 4 video blocks each containing:
+    - `img` thumbnail
+    - `h2` title
+    - `p` description
+    - Author info (`img + h3`)
+    - Rating stars (`5 img + p`)
 
 ---
 
 ### 5. Membership Section
 - Add a `<section>` with:
-  - `<h1>` heading
-  - A `<div>` with **4 membership cards**
-  - Each card: `<img>`, `<h2>`, `<p>`
-  - A button below the cards
+  - Heading `<h1>`
+  - 4 membership items (`img`, `h2`, `p`)
+  - Optional button below items
 
 ---
 
 ### 6. FAQ Section
-- Add another `<section>` containing:
-  - `<h1>` heading
-  - Two rows of FAQs (each row has two items with `<h2>` and `<p>`)
+- Add a `<section>` before footer:
+  - Heading `<h1>`
+  - 2 rows × 2 items each (`h2` + `p`)
 
 ---
 
 ### 7. Footer
-- After `<main>`, include a `<footer>` with:
-  - A container `<div>` holding:
-    - The logo `<img>`
-    - Social link icons (`<a><img></a>`)
-  - A final copyright `<p>`
+- Add `<footer>` after `<main>`:
+  - Container `<div>` with:
+    - Logo `<img>`
+    - Social links (`a > img`)
+  - Text paragraph `<p>` at the bottom
 
 ---
 
@@ -94,20 +89,20 @@ alche-web-development/
 
 | Section | Requirement |
 |----------|-------------|
-| README.md | Describes the project and structure |
-| Header | Clickable logo + 3 navigation links |
-| Banner | Correct headings, text, and button |
+| README.md | Describes project and structure |
+| Header | Clickable logo + 3 links |
+| Banner | Correct headings and feature blocks |
 | Quote | Semantic `<blockquote>` used |
-| Videos | 4 blocks with author and rating |
-| Membership | 4 cards + button |
+| Videos | 4 video items with author and rating |
+| Membership | 4 items |
 | FAQ | 2 rows × 2 items |
-| Footer | Logo, social links, and text |
+| Footer | Logo, links, and text |
 
 ---
 
-##  Example Layout Preview
+## Example Layout Preview
 
-![HTML Layout Example](https://cdn.pixabay.com/photo/2017/03/21/17/42/html5-2160960_1280.png)
+![HTML Layout Example](https://via.placeholder.com/800x400?text=HTML+Advanced+Layout)
 
 ---
 
